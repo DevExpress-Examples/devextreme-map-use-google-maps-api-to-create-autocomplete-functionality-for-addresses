@@ -3,6 +3,9 @@
 
 <!-- default file list end -->
 # dxMap - How to use Google Maps API to create autocomplete functionality for addresses
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t327372)**
+<!-- run online end -->
 
 
 <p>This example illustrates an approach described in the <a href="https://www.devexpress.com/Support/Center/p/KA18782">How to take advantage of map provider API features that were not implemented in the dxMap widget?</a> DevExpress Knowledge Base article and the Google <a href="https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete">Place Autocomplete</a> and <a href="https://developers.google.com/maps/documentation/javascript/places-autocomplete"> Places Library</a> articles.<br><br></p>
