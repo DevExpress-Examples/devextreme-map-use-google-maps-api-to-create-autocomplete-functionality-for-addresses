@@ -4,7 +4,7 @@
 <!-- default file list end -->
 # dxMap - How to use Google Maps API to create autocomplete functionality for addresses
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t327372)**
+**[[Run Online]](https://codecentral.devexpress.com/t327372/)**
 <!-- run online end -->
 
 
