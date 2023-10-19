@@ -1,35 +1,38 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en" >
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.js"></script>
-    <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/18.1.11/css/dx.common.css">
-    <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/18.1.11/css/dx.light.css">
-    <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/18.1.11/js/dx.all.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=geometry,places"></script>
-    <script type="text/javascript" src="script.js"></script>
+  <meta charset="UTF-8">
+  <title>DevExtreme Demo</title>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel='stylesheet' href='https://cdn3.devexpress.com/jslib/23.1.5/css/dx.material.blue.light.css'>
+    <link rel='stylesheet' href='./style.css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='https://cdn3.devexpress.com/jslib/23.1.5/js/dx.all.js'></script>
+    <script src='https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY&amp;libraries=places'></script>
+    <script  src="./script.js"></script>
 </head>
 
 <body class="dx-viewport">
-    <input id="pac-input" class="controls" type="text" placeholder="Enter a location">
-    <div id="type-selector" class="controls">
-        <input type="radio" name="type" id="changetype-all" checked="checked">
-        <label for="changetype-all">All</label>
+<div class="demo-container">
+  <input id="pac-input" class="controls" type="text" placeholder="Enter a location">
+    <div id="type-selector" class="controls" style="background-color: lightseagreen;">
+      <input type="radio" name="type" id="changetype-all" checked="checked">
+      <label for="changetype-all">All</label>
 
-        <input type="radio" name="type" id="changetype-establishment">
-        <label for="changetype-establishment">Establishments</label>
+      <input type="radio" name="type" id="changetype-establishment">
+      <label for="changetype-establishment">Establishments</label>
 
-        <input type="radio" name="type" id="changetype-address">
-        <label for="changetype-address">Addresses</label>
+      <input type="radio" name="type" id="changetype-address">
+      <label for="changetype-address">Addresses</label>
 
-        <input type="radio" name="type" id="changetype-geocode">
-        <label for="changetype-geocode">Geocodes</label>
+      <input type="radio" name="type" id="changetype-geocode">
+      <label for="changetype-geocode">Geocodes</label>
     </div>
     <div id="map"></div>
+</div>
 </body>
 
 </html>
