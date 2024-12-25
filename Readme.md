@@ -25,7 +25,7 @@ This example demonstrates how to use Google Maps API to create autocomplete func
 
 ## See Also
 
-- [Marker Clusterer – A Google Maps JavaScript API utility library](https://github.com/googlemaps/js-marker-clusterer)
+- [Marker Clusterer – A Google Maps JavaScript API utility library](https://github.com/googlearchive/js-marker-clusterer)
 
 - [Map for DevExtreme - How to add the current location marker](http://www.devexpress.com/Support/Center/Example/Details/E4734) 
 
